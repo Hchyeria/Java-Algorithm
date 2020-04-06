@@ -41,6 +41,6 @@ public class Stack {
     }
 
     public Integer peek() {
-        return head.next!=null? head.next.value : null;
+        return head.next != null ? head.next.value : null;
     }
 }

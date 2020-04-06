@@ -11,6 +11,8 @@ public class MiddleNodeOfLinkedList {
         // the condition fast.next.next != null make sure to return the first middle node when the length of LinkedList is even(偶数)
         // if we change it to fast != null && fast.next != null
         // then [1,2,3,4,5,6] -> 4
+        // if we initial fast = head.next, slow = head, and fast != null && fast.next != null
+        // then [1,2,3,4,5,6] -> 3
         while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;

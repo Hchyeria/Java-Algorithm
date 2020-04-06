@@ -15,8 +15,8 @@ public class SortArrayWithTwoStacks {
     private LinkedList<Integer> stack2; // store have already be sorted elements
 
     public SortArrayWithTwoStacks() {
-        stack1 = new LinkedList<Integer>();
-        stack2 = new LinkedList<Integer>();
+        stack1 = new LinkedList<>();
+        stack2 = new LinkedList<>();
     }
 
     public int[] sort(int[] array) {
