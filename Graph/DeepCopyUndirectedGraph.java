@@ -55,7 +55,7 @@ public class DeepCopyUndirectedGraph {
     }
 
     // Time Complexity: O(|V|+|E|)
-    // Space Complexity: O(|V|+|E|)
+    // Space Complexity: O(|V|)
 
     // Solution 2: DFS
     public Node cloneGraph2(Node node) {
