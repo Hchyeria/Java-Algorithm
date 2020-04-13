@@ -28,7 +28,7 @@ public class AllAnagrams {
             // this value will change to -1
             if (right - left == s.length() && counter[l.charAt(left++) - 'a']++ >= 0) {
                 count++;
-            }
+        }
             if (counter[l.charAt(right++) - 'a']-- > 0) {
                 count--;
             }

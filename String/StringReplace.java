@@ -13,7 +13,7 @@ import java.util.StringJoiner;
 public class StringReplace {
     // Solution 1:
     public String replace(String input, String s, String t) {
-        if (s == null || t ==null || t.length() <= 1) {
+        if (s == null || t == null || t.length() <= 1) {
             return input;
         }
         StringBuilder sb = new StringBuilder();

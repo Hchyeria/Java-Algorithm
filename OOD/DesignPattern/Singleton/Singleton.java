@@ -87,7 +87,6 @@ class Singleton2 {
 class Singleton3 {
     private static volatile Singleton3 INSTANCE;
     private Singleton3() {}
-
     public static Singleton3 getInstance() {
         if (INSTANCE == null) {
             synchronized(Singleton3.class) {

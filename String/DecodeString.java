@@ -15,7 +15,6 @@ public class DecodeString {
         int count = 0;
         while (fast < s.length()) {
             if (Character.isDigit(s.charAt(fast))) {
-                System.out.println(s.charAt(fast) - '0');
                 // not the count += 10 * count + (s.charAt(fast) - '0'); !!!
                 count = 10 * count + (s.charAt(fast) - '0');
             } else if (s.charAt(fast) == '[') {
