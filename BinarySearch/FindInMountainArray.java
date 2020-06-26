@@ -54,6 +54,9 @@ public class FindInMountainArray {
         return -1;
     }
 
+    // Time Complexity: O(log(n))
+    // Space Complexity: O(1)
+
     public static void main(String[] args) {
         FindInMountainArray findInMountainArray = new FindInMountainArray();
         int[] a = {179,181,183,185,187,189,191,199,201,199,187,185,183,181,179,177,175,173,171,169,167,165,163};
