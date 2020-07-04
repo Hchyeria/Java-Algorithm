@@ -24,8 +24,8 @@ public class HeapSort extends Sort{
             int leftChild = index * 2 + 1;
             int rightChild = index * 2 + 2;
             int swapIndex = leftChild;
-            // remember to check right  valid
-            // because it must has left child, not sure right child
+            // remember to check right valid
+            // because heap is a complete tree, it must has left child, not sure right child
             if (rightChild < size && array[rightChild] > array[leftChild]) {
                 swapIndex = rightChild;
             }
@@ -48,7 +48,7 @@ public class HeapSort extends Sort{
     }
 
     // Time: O(n + n*log(n))
-    // Space: 1
+    // Space: O(1)
     // Unstable
 
 }
